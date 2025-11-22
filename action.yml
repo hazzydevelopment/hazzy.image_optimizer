@@ -1,0 +1,33 @@
+
+---
+
+# 📌 **action.yml**
+```yaml
+name: "Image Optimizer"
+description: "Advanced image optimization: WebP, AVIF, resize, EXIF removal."
+author: "hazzy"
+
+inputs:
+  path:
+    required: true
+  output_webp:
+    required: false
+    default: "false"
+  output_avif:
+    required: false
+    default: "false"
+  resize_width:
+    required: false
+  resize_height:
+    required: false
+  remove_exif:
+    required: false
+    default: "false"
+
+runs:
+  using: "node20"
+  main: "index.js"
+
+branding:
+  icon: "image"
+  color: "purple"
