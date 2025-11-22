@@ -13,7 +13,7 @@ Supports WebP, AVIF, Resize, EXIF Removal, and high-performance batch processing
 ## Usage
 ```yaml
 - name: Optimize Images (Premium)
-  uses: yourname/image-optimizer-premium@v1
+  uses: yourname/image-optimizer
   with:
     path: "./images"
     output_webp: true
